@@ -1,3 +1,3 @@
 # ServiElectronic
 
-Link del proyecto: https://servielectronic.github.io/serviElectronic/index.html
+Link del proyecto: https://servielectronic.github.io/serviElectronic/
