@@ -19,15 +19,17 @@
             <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
 
-                    <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Registro</p>
+                    <h1 class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Registrate</h1>
 
                     <form class="mx-1 mx-md-4">
 
                         <div class="d-flex flex-row align-items-center mb-4">
                             <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                             <div class="form-outline flex-fill mb-0">
-                                <label class="form-label" for="">Nombre Completo:</label>
-                                <input type="text" id="" class="form-control" />
+                                <label class="form-label" for="">Nombre Completo*</label>
+                                <input type="text" id="" class="form-control" placeholder="Ingresa tu nombre completo"
+                                    required />
+
 
                             </div>
                         </div>
@@ -35,8 +37,9 @@
                         <div class="d-flex flex-row align-items-center mb-4">
                             <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                             <div class="form-outline flex-fill mb-0">
-                                <label class="form-label" for="">Email:</label>
-                                <input type="email" id="" class="form-control" />
+                                <label class="form-label" for="">Email*</label>
+                                <input type="email" id="" class="form-control" placeholder="Ingresa tu email"
+                                    required />
 
                             </div>
                         </div>
@@ -44,8 +47,9 @@
                         <div class="d-flex flex-row align-items-center mb-4">
                             <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
                             <div class="form-outline flex-fill mb-0">
-                                <label class="form-label" for="">Contraseña:</label>
-                                <input type="password" id="" class="form-control" />
+                                <label class="form-label" for="">Contraseña*</label>
+                                <input type="password" id="" minlength="8" class="form-control"
+                                    placeholder="Ingresa una contraseña mayor a 8 caracteres" required />
 
                             </div>
                         </div>
@@ -53,8 +57,29 @@
                         <div class="d-flex flex-row align-items-center mb-4">
                             <i class="fas fa-key fa-lg me-3 fa-fw"></i>
                             <div class="form-outline flex-fill mb-0">
-                                <label class="form-label" for="">Repite tu contraseña</label>
-                                <input type="password" id="" class="form-control" />
+                                <label class="form-label" for="">Numero telefonico*</label>
+                                <input type="number" id="" class="form-control"
+                                    placeholder="Ingresa tu numero telefonico" />
+
+                            </div>
+                        </div>
+
+
+
+
+
+                        <br>
+
+                        <div class="d-flex flex-row align-items-center mb-4">
+                            <i class="fas fa-key fa-lg me-3 fa-fw"></i>
+                            <div class="form-outline flex-fill mb-0">
+                                <label class="form-label" for="">
+
+                                    Al realizar el registro la ubicación no es requerida, pero al realizar un pedido la
+                                    ubicacion sera requerida
+                                </label>
+
+
 
                             </div>
                         </div>
@@ -62,9 +87,12 @@
 
 
                         <div class="d-flex justify-content-center mx-5 " id="btncolor">
-                            <button type="button" class="btn btn-lg">
-                                <p style="color: #ffff;">Registrar </p>
+                            <button type="submit" class="btn btn-lg">
+                                <p style="color: #ffff;">Registrate</p>
                             </button>
+
+
+
                         </div>
 
                     </form>
