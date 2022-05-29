@@ -1,0 +1,93 @@
+.imagen{
+    width: 20vw !important;
+    height: 40vh !important;
+    max-width: 20vw !important;
+    position: relative;
+    right: 10%;
+    border-radius: 8px;
+}
+.titulo{
+    width: 20vw;
+    height: auto;
+    position: relative;
+    right: 0;
+    transform: translate(5vw,5vh);
+    display: inline-block;
+    
+}
+.texto{
+    width: auto;
+    height: auto;
+    position:relative;
+    top: 20%;
+    left: 3;
+    right:-5%;
+    display: inline-block;
+    
+}
+.principal{
+    width: 95vw !important;
+    height: 50vh !important;
+    position:relative !important;
+    top: 30% !important;
+    left: 0 !important;
+    display: block;
+   
+
+}
+.subtitulo{
+    position: relative;
+    left: auto;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center !important;
+}
+.imagenes{
+    width: 20vw !important;
+    height: 40vh !important;
+    max-width: 20vw !important;
+    position:relative;
+    right: 10%;
+    border-radius: 8px;
+}
+.principal1{
+    width: 95vw !important;
+    height: 50vh !important;
+    position:relative !important;
+    top: -10% !important;
+    left: 0 !important;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-bottom: -80vh;
+}
+.texto1{
+    width: auto;
+    height: auto;
+    position:relative;
+    left: 3;
+    right:-1%;
+    transform: translate();
+    
+}
+.titulo1{
+    width: 20vw;
+    height: auto;
+    position: relative;
+    right: 0;
+    transform: translate(70vw,0vh);
+    display: flex;
+}
+.subtitulo1{
+    position: relative;
+    left: auto;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center !important;
+    display: block;  
+    top: 5%;
+}
+.SirvicElectronic{
+    width: 90vw;
+    margin:0 auto !important;
+}
