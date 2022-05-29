@@ -1,7 +1,7 @@
 .imagen{
     width: 20vw !important;
-    height: 40vh !important;
-    max-width: 20vw !important;
+    height: 20vh !important;
+    max-width:20vw !important;
     position: relative;
     right: 10%;
     border-radius: 8px;
