@@ -1,0 +1,13 @@
+@media ( max-width: 720px){
+
+  .ServiElectronic,.tex,.imagen,.principal1,.titulo1{
+    flex-direction:column !important;
+    width: 100vw !important;
+ }
+ .tex{
+     display: block !important;
+ }
+ 
+}
+
+
