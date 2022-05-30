@@ -164,9 +164,8 @@ div.cajaconenido:hover {
 
 .pie {
     
-    position: fixed !important;
-    bottom: -200vh !important;
-    background-color: #fff !important;
+    position: relative !important;
+    bottom: -100vh !important;
     
   
 }
