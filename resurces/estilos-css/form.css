@@ -31,12 +31,12 @@
     padding: 0;
     box-sizing: content-box !important;
     line-height: 120px !important;
-    background-color: black;
+    
 }
 
 .repe {
     width: 45vw !important;
-    height: 100vh;
+    height: 105vh;
     border-radius: 10px;
     transition: all 0.2s;
     transform: translate(.3%, -.5%);
