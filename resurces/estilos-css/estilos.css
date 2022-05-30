@@ -106,8 +106,8 @@
 
 .pie {
     color: #fff;
-    position: fixed !important;
-    bottom: 0% !important;
+    position: relative !important;
+    bottom: -100vh !important;
     left: 0 !important;
     right: 0% !important;
     margin: 0 !important;
