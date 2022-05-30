@@ -162,3 +162,10 @@ div.cajaconenido:hover {
     left: -40% !important;
 }
 
+.pie {
+    
+    position: fixed !important;
+    bottom: -200vh !important;
+    
+  
+}
