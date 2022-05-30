@@ -1,0 +1,168 @@
+.contenidos {
+    max-width: 99vw;
+    width: 99vw;
+    height: auto;
+    position: relative;
+    margin: 0 !important;
+    padding: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    box-sizing: border-box !important;
+    justify-content: space-between;
+    top: 0vw !important;
+    left: 0vw;
+    transform: translate(0%, 10vh);
+}
+
+.tecnico {
+    position: relative;
+    display: inline-block;
+    width: 30vw;
+    max-width: 30vw;
+    left: 2%;
+    right: 2%;
+    margin-right: 2vw;
+    text-align: center !important;
+}
+
+.mma {
+    transform: translate(0%, 10vh);
+}
+
+.imagen {
+    height: 50% !important;
+    max-height: 50% !important;
+    min-height: 50% !important;
+}
+
+.fttecnico {
+    width: 50%;
+    zoom: 200% !important;
+    height: 50% !important;
+    max-height: 50% !important;
+    min-height: 50% !important;
+}
+
+.flecha {
+    display: flex;
+    position: absolute;
+    transform: translate(12vw, -5vw);
+}
+
+.dos {
+    transform: translate(0%, 30vh) !important;
+}
+
+.ent {
+    width: 90vw;
+    height: 20%;
+    position: relative;
+    display: block;
+    top: 0;
+    transform: translate(0%, 10vh);
+}
+
+hr {
+    display: flex;
+    position: relative;
+    transform: translate(0%, 15vh);
+}
+
+.cajaconenido {
+    display: block;
+    position: absolute;
+    width: 60% !important;
+    transform: translate(6vw, 0vh);
+}
+
+.nasi1 {
+    display: flex;
+    position: relative;
+    left: 5%;
+    line-height: 4vh;
+    text-align: left !important;
+    font-weight: 750;
+}
+
+.texto {
+    transform: translate(10vw, 0vh);
+    font-weight: 800;
+}
+
+.condiciones {
+    transform: translate(10vw, 4vh);
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 5% !important;
+    width: 88.5% !important;
+}
+
+.nasi {
+    width: 100% !important;
+}
+
+.desarga {
+    position: absolute;
+    width: 100%;
+    transform: translate(5vw, 37vh) !important;
+    margin: 0 auto !important;
+    margin-bottom: 12vh !important;
+    padding-bottom: 20vh !important;
+    margin-top: auto;
+}
+
+button.btouu:hover {
+    background-color: #51D1F6 !important;
+    border: none !important;
+    font-weight: 600 !important;
+    transition: all 600ms;
+}
+
+div.un:hover {
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+    backdrop-filter: blur(2px) !important;
+    border: rgba(255, 255, 255, 0.18) !important;
+    transition: all 500ms;
+    width: 110%;
+}
+
+div.cajaconenido:hover {
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+    backdrop-filter: blur(2px) !important;
+    border: rgba(255, 255, 255, 0.18) !important;
+}
+
+.redire {
+    display: flex;
+    position: relative;
+    transform: translate(85vw, 17vh);
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: 3vw !important;
+    max-width: 3vw;
+    flex-basis: 3vw !important;
+    cursor: pointer !important;
+}
+
+.sn {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    font-weight: 800;
+}
+
+.n {
+    margin-bottom: 12% !important;
+}
+
+.buscadore {
+    transform: translate(0%, 5.5vh) !important;
+    position: relative;
+    left: -40% !important;
+}
+
+#pie {
+    position: absolute;
+    bottom: 0;
+}

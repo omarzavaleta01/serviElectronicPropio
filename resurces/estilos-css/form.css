@@ -1,0 +1,187 @@
+.contenedor {
+    width: 99vw;
+    height: 100vh;
+    padding: 0;
+    line-height: 120px !important;
+    margin-top: 40px;
+    position: relative;
+    top: 0%;
+    margin: 0 !important;
+    left: 0 !important;
+}
+
+.unocontenido {
+    width: 55vw;
+    height: 70vh;
+    position: relative;
+    top: 3%;
+    display: block !important;
+    left: 0;
+    margin: 0;
+}
+
+.doscontenido {
+    width: 45vw;
+    flex-basis: 45vw !important;
+    max-width: 45vw !important;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box !important;
+    line-height: 120px !important;
+    background-color: black;
+}
+
+.repe {
+    width: 45vw !important;
+    height: 100vh;
+    border-radius: 10px;
+    transition: all 0.2s;
+    transform: translate(.3%, -.5%);
+    box-sizing: content-box !important;
+    line-height: 120px !important;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+    backdrop-filter: blur(2px) !important;
+    border: rgba(255, 255, 255, 0.18) !important;
+}
+
+.selects {
+    display: inline-block;
+}
+
+.form-group {
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-right: 30px !important;
+}
+
+#exampleFormControlTextarea1 {
+    margin-right: 0;
+    position: relative;
+    display: block;
+    flex-basis: 101%;
+    width: 100.5%;
+    left: 0 !important;
+}
+
+.das {
+    display: inline-block;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.btou {
+    margin-right: 0;
+    display: flex;
+    position: relative;
+    left: 4% !important;
+    top: 4% !important;
+}
+
+.btous {
+    flex-basis: 46.5vw;
+    width: 46.5vw;
+    position: relative;
+    top: -5%;
+    left: -1% !important;
+    margin-bottom: 10% !important;
+    margin-top: 5%;
+}
+
+.titulo {
+    position: relative;
+    top: 5%;
+}
+
+.text {
+    font-weight: 800;
+}
+
+select,
+textarea,
+input {
+    border-color: rgb(10, 10, 10) !important;
+}
+
+.form-control:focus {
+    background-color: rgba(205, 205, 205, 0.2) !important;
+    transition: all 600ms;
+}
+
+.form-control:hover {
+    border-color: #51D1F6 !important;
+    transition: all 600ms;
+}
+
+button.btouu:hover {
+    background-color: #51D1F6 !important;
+    border: none !important;
+    font-weight: 600 !important;
+    transition: all 600ms;
+}
+
+.formulario {
+    width: 98% !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-bottom: 10% !important;
+    display: block !important;
+}
+
+.intro {
+    display: flex;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    bottom: 100%;
+    transform: translate(0%, -150%) !important;
+    color: rgba(205, 205, 205);
+    font-weight: 600;
+    height: 30px;
+}
+
+.areataxt {
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative !important;
+    left: 4.5% !important;
+    transform: translate(0%, -11%);
+    flex-basis: 86.5%;
+    width: 86.5%;
+}
+
+.btou {
+    background-color: #51D1F6;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative !important;
+    left: 5% !important;
+    transform: translate(0%, -11%);
+    flex-basis: 86.5% !important;
+    width: 86.5% !important;
+}
+
+.a {
+    position: fixed !important;
+    left: 0% !important;
+    margin-bottom: 10% !important;
+}
+
+.pie {
+    color: #fff;
+    position: relative !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100vw;
+    height: 20vh;
+}

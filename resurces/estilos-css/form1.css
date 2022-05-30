@@ -1,0 +1,128 @@
+.am {
+    max-width: 20vw !important;
+    width: 20vw !important;
+    position: relative !important;
+    left: 0 !important;
+}
+
+.bas {
+    width: 90% !important;
+    margin: 0 auto !important;
+    transform: translate(0%, -15vh);
+    margin-bottom: 20vh!important;
+}
+
+.contenedor {
+    margin-bottom: 15vh !important;
+    padding-bottom: 15vh !important;
+}
+
+.unocontenido {
+    transform: translate(0%, 15%) !important;
+    transition: all 300ms;
+}
+
+.ins2 {
+    position: relative;
+    transform: translate(0vw, -4vh) !important;
+}
+
+.ins3 {
+    position: relative;
+    transform: translate(0vw, -8vh) !important;
+}
+
+.ins4 {
+    position: relative;
+    transform: translate(0vw, -12vh) !important;
+}
+
+.text {
+    transform: translate(0%, 10vh) !important;
+}
+
+
+/*----------------------------------------------  QUERYS*/
+
+@media (max-width:720px) {
+    .repe,
+    .doscontenido {
+        visibility: hidden;
+    }
+    .unocontenido {
+        width: 100vw;
+        flex-basis: 100vw;
+        flex-direction: column;
+        height: auto;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        right: 0;
+        transform: translate(0%, -13%);
+    }
+    .form-group {
+        display: block;
+        flex-direction: column;
+        width: 90vw !important;
+    }
+    .ins,
+    .ins2,
+    .ins3,
+    .ins4,
+    .selects {
+        width: 90vw !important;
+        max-width: 90vw !important;
+    }
+    .selects {
+        position: relative;
+        width: 90vw !important;
+        max-width: 90vw !important;
+    }
+    select {
+        display: block !important;
+        padding-left: 88vw !important;
+        position: fixed;
+        max-width: 90% !important;
+        width: 90% !important;
+    }
+    .ins {
+        margin-top: 10% !important;
+        transform: translate(0%, 18vh);
+    }
+    .ins2 {
+        position: relative;
+        transform: translate(5vw, -12vh) !important;
+    }
+    .asa {
+        transform: translate(5vw, -17vh) !important;
+    }
+    .asa1 {
+        transform: translate(5vw, -50vh) !important;
+    }
+    .ins3 {
+        position: relative;
+        transform: translate(5vw, -20vh) !important;
+    }
+    .ins4 {
+        position: relative;
+        transform: translate(5vw, -25vh) !important;
+    }
+    .titulo {
+        transform: translate(0%, -6vh) !important;
+        width: 90vw !important;
+        max-width: 90vw !important;
+    }
+}
+
+.pie {
+    color: #fff;
+    position: relative !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100vw;
+    height: 20vh;
+}

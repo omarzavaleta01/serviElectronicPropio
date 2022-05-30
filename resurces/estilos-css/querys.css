@@ -1,0 +1,335 @@
+@media ( max-width: 720px){
+
+    .repe,.doscontenido{
+        
+        visibility: hidden;
+    }
+    .unocontenido{
+        width: 100vw;
+        flex-basis: 100vw;
+        flex-direction: column;
+        height: auto;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        right: 0;
+        transform: translate(0%,-13%);
+    
+    }
+    .form-group{
+
+        width: 90vw;
+        flex-basis: 90vw;
+        flex-direction: column;
+        display: block;
+
+    }
+
+   .ins{
+       justify-content: center !important;
+       align-items: center !important;
+       position: relative;
+       transform: translate(5vw,-2vh);
+      
+   }
+   .ins1{
+       
+       position: relative;
+       transform: translate(5vw,-6vh);
+      
+   }
+   .ins2{
+     
+       position: relative;
+       transform: translate(0vw,-8vh) !important;
+
+   }
+   .hc{
+    transform: translate(5vw,-12vh) !important;
+   }
+   .hcd{
+    transform: translate(5vw,-8vh) !important;
+
+   }
+
+    #exampleFormControlTextarea1{
+
+        width: 90vw !important;
+        flex-basis: 90vw !important;
+        flex-direction: column !important;
+        display: block !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        position: relative;
+        left: 0;
+
+
+    }
+    .pie{
+        position: fixed !important;
+        bottom: 0 !important;
+        margin-top: 20% !important;
+        height: 10vh !important;
+    }
+
+    .btou{
+        flex-direction: column;
+        flex-basis: 100vw;
+        width: 100vw;
+        position: relative;
+        left: 0 !important;
+        transform: translate(0%,-10vh) !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        
+        
+        
+    }
+    .a{
+
+        position: fixed !important;
+        left: 0 !important;
+        width: 90vw !important;
+
+    }
+    .btous{ 
+        width: 90vw !important;
+        transform: translate(2%,-12vh) !important;
+
+    }
+    .intro{
+       
+        position: absolute;
+        max-height: max-content !important;
+        width: max-content !important;
+       padding-bottom: -50vh !important;
+        
+
+    }
+
+    label{
+        padding-bottom: -120px !important;
+        
+    }
+
+    
+
+      
+}
+
+/* QUERY DE PEDIDOS*/
+
+@media ( max-width:720px ){
+
+ 
+
+    contenidos,.imagen {
+
+        flex-direction: column !important;
+        width: 100vw !important;
+
+    }
+
+    .tecnico,.cajaconenido{
+
+        display: block !important;
+        width: 100vw !important;
+       
+    }
+
+    .tecnico{
+        width: 90vw !important;
+        max-width: 90vw !important;
+        margin-bottom: 17vh ;
+        padding-bottom: 17vh;
+        transform: translate(0vw,10vh) !important;
+        
+        
+    }
+
+    .cajaconenido{
+
+
+        display:flex;
+        width: max-content;
+        flex-basis:200vw !important;
+        width: 200vw !important;
+        max-width: 200vw !important;
+        position: fixed !important;
+        margin-top: 20vh;
+        margin-bottom: 5vw;
+        margin: 0 auto !important;
+        transform: translate(20vw,2vh) !important;
+
+    }
+
+    .flecha{
+        visibility: hidden !important;
+       
+    }
+
+    .ana{
+        transform: translate(0vw,-20vh) !important;
+        text-align: center !important;
+    
+    }
+    .ana1{
+        transform: translate(0vw,-20vh) !important;
+      
+    }
+    .ana2{
+        transform: translate(0vw,-22vh) !important;
+       
+    }
+    .desarga{
+        display: flex !important;
+        position: absolute !important;
+       top: 80vh;
+       margin: 0 !important;
+       padding: 0 !important;
+        transform: translate(0vw,20vh) !important;
+    }
+
+    .ent{
+        width: 88vw !important;
+        justify-content: left !important;
+        text-align: left!important;
+     
+        
+    }
+    .n{
+        margin-bottom: 2% !important;
+        padding-bottom: 6% !important;
+    }
+    .redire{
+        visibility: hidden;
+    }
+    .desarga{
+        display: flex;
+        position: fixed;
+        top:73%;
+        transform: translate(0%,40vh);
+
+    }
+
+}
+
+@media ( max-width:720px ){
+
+   
+.bars__menu{
+    position: absolute !important;
+    top: 90%;
+    right: 0 !important;
+    transform: translate(130%,0%) !important;
+  
+    display: block !important;
+    
+   
+}
+div.bars__menu:hover{
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37) !important;
+    backdrop-filter: blur(2px) !important;
+    border: rgba(255,255,255, 0.18) !important;
+}
+    .bars__menu span{
+        background-color:#000 !important;
+        opacity: 1 !important;
+        
+    }
+    .nav-menu{
+
+        top:-100vh;   /* corremos el menu al la zquierda compleamente*/
+        transition: top 0.5s;
+    }
+   
+
+    .nav-menu-item{
+
+        line-height: 70px;
+        text-align: left !important;
+        overflow-y: auto !important;
+    }
+    .nav-menu-visible{
+
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        background-color: black !important;
+        position: fixed;
+        left:  0% !important ;
+        top: 100%;
+        width:70vh  !important;
+        padding: 40px 0;
+      /*   height: calc(100% - 60px); Realiza un calculo del tamaño del elemento en la pagina , estirar el elemento hacia abajo */
+        height: 100vh;   
+        overflow-y: auto !important;   /* añade un scrol automatico en la pantalla */
+
+        left:0 !important;
+    }
+
+    .nav-link{
+        color: white !important;
+        
+    }
+   
+    .activeredire{
+        display: none !important;
+    }
+
+    .activedos{
+        display: none !important;
+    }
+
+    .buscadore{
+
+        position: relative !important; 
+        display: flex !important;
+       margin-top: -25% !important;
+       
+       transform: translate(-20vw,0%) !important;
+        
+        
+    }
+    .act{
+        width: 100vw;
+        
+    }
+    .buscadore:hover{
+        background:white  !important;
+    }
+    .cabeza{
+       
+       position: fixed;
+        z-index: 1;
+        transition: all 600ms;
+        height: 16.5vh;
+        width: auto !important;
+        
+        
+    }
+    .logo{
+        position: absolute !important;
+        left: 11% !important;
+        top: 20%;
+    }
+    .nav{
+        margin-top: -40px !important;
+    }
+    .aus{
+        margin-top: -12vh;
+       
+        
+    }
+
+    .redire{
+        
+        transform: translate(0,30vh) !important ;
+    }
+
+
+  
+
+}
+
