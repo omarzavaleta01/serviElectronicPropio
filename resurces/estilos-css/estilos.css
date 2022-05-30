@@ -106,7 +106,7 @@
 
 .pie {
     color: #fff;
-    position: absolute !important;
+    position: fixed !important;
     bottom: 0% !important;
     left: 0 !important;
     right: 0% !important;
