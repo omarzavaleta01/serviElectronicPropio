@@ -22,6 +22,7 @@
 #servicios {
     margin-left: 100px;
     margin-top: 60px;
+    transform: translate(10%, 0%);
 }
 
 #boton {
@@ -33,11 +34,13 @@
 #servicios2 {
     margin-left: 470px;
     margin-top: -430px;
+    transform: translate(10%, 0%);
 }
 
 #servicios3 {
     margin-left: 850px;
     margin-top: -432px;
+    transform: translate(10%, 0%);
 }
 
 #foto {
@@ -58,4 +61,5 @@
 #servicios4 {
     margin-left: 100px;
     margin-top: 50px;
+    transform: translate(33%, 0%);
 }
