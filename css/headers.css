@@ -86,7 +86,7 @@
   }
 }
 
-#pie{
+/*#pie{
   color: #fff;
     position: relative !important;
     bottom: -100vh !important;
@@ -97,4 +97,16 @@
     width: 100vw;
     height: 20vh; 
 }
-
+*/
+.f{
+ color: #fff;
+    position: relative !important;
+    bottom: -25vh !important;
+    left: 0 !important;
+    right: 0% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100vw;
+    height: 20vh;
+   
+}

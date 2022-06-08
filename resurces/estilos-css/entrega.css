@@ -162,7 +162,10 @@ div.cajaconenido:hover {
     left: -40% !important;
 }
 
-#pie {
-    position: absolute;
-    bottom: 0;
+.pie {
+    
+    position: relative !important;
+    bottom: -100vh !important;
+    
+  
 }
