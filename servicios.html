@@ -7,9 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo de Servicios ServiElectronic</title>
 
-    <link rel="stylesheet" href="estilos/servicios_CAT.css">
+   
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="resurces/fontawesome/css/all.css">
+    <link rel="stylesheet" href="resurces/estilos-css/estilos.css"> 
+    <link rel="stylesheet" href="resurces/estilos-css/servicios_CAT.css"> 
     <link rel="stylesheet" href="encabezado.css">
     <link rel="stylesheet" href="query_menu.css">
 </head>
@@ -24,21 +27,19 @@
             <img src="resurces/images/logo1.jpg" class="logo" width="100" height="60">
 
             <nav class="nav1">
-
-
                 <ul class="nav nav-menu col-12 ms-auto col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="#" class="nav-link px-3 text-secondary nav-menu-item aus">INICIO</a></li>
-                    <li><strong><a href="#" class="nav-link px-3 text-black nav-menu-item ns ">SERVICIOS</a></strong></li>
-                    <li><strong><a href="#" class="nav-link px-3 text-black nav-menu-item ns">¿QUIENES SOMOS?</a></strong>
+                    <li><a href="index.html" class="nav-link px-3 text-secondary nav-menu-item aus">INICIO</a></li>
+                    <li><strong><a href="servicios.html" class="nav-link px-3 text-black nav-menu-item ns ">SERVICIOS</a></strong></li>
+                    <li><strong><a href="QuienesSomos.html" class="nav-link px-3 text-black nav-menu-item ns">¿QUIENES SOMOS?</a></strong>
                     </li>
-                    <li><strong><a href="#" class="nav-link px-3 text-black nav-menu-item ns">CONTACTO</a></strong></li>
+                    <li><strong><a href="contactenos.html" class="nav-link px-3 text-black nav-menu-item ns">CONTACTO</a></strong></li>
                     <div class="text-end buscador">
                         <form class="col-12 col-lg-auto col-md-6 mb-3 mb-lg-0 me-lg-3 buscadore" role="search">
                             <input type="search" class="form-control form-control-dark text-dark bg-light  act" placeholder="Buscar..." aria-label="Search">
                         </form>
                     </div>
                     <div class="login">
-                        <li><strong><a href="#" class="nav-link px-3 text-black"><i class="fa-solid fa-circle-user fa-3x"
+                        <li><strong><a href="index.html" class="nav-link px-3 text-black"><i class="fa-solid fa-circle-user fa-3x"
                                     title="Iniciar sesión"></i></a></strong></li>
                     </div>
                 </ul>
@@ -52,17 +53,15 @@
     </div>
 
 </header>
-
 <body id="cuerpo">
-
-    <div>
+    <div class="cu">
         <h1 id="titulo">Servicios</h1>
         <h3 id="sub">Con nosotros podrás disfrutar de un excelente servicio... ¡No te arrepentirás!</h3>
         <br>
-
-        <section id="servicios">
-            <div class="card" style="width: 18rem;">
-                <img src="img/celulares.jpg" class="card-img-top" alt="celulares">
+        <div class="col-sm-12 elcnuno">
+        <section id="servicios" class="col-sm-4 uno  a" onclick="location.href='reparacion.html';">
+            <div class="card" style="width:  25rem;">
+                <img id="foto" src="resurces/images/img/celulares.jpg" class="card-img-top" alt="celulares"> 
                 <div class="card-body">
                     <h5 class="card-title">Reparación y mantenimiento</h5>
                     <p class="card-text">Ofrecemos servicios a domicilio de reparación equipo de cómputo</p>
@@ -70,39 +69,61 @@
                 </div>
             </div>
         </section>
-        <section id="servicios2">
-            <div class="card" style="width: 18rem;">
-                <img id="foto" src="img/domicilio.jpg" class="card-img-top" alt="celulares">
+        <section id="servicios" class="col-sm-4 dos" onclick="location.href='reparacion.html';">
+            <div class="card" style="width: 25rem;">
+                <img id="foto" src="resurces/images/img/domicilio.jpg" class="card-img-top" alt="celulares"> 
                 <div class="card-body">
                     <h5 class="card-title">Reparación de celulares</h5>
                     <p class="card-text">Ofrecemos servicios a domicilio de reparación, flexeo y desbloque de smartphones</p>
-                    <a id="boton" href="celulares.html" class="btn btn-primary">Ver mas</a>
+                    <a id="boton" href="reparacion.html" class="btn btn-primary">Ver mas</a>
                 </div>
             </div>
         </section>
-        <section id="servicios3">
-            <div class="card" style="width: 18rem;">
-                <img id="foto2" src="img/gamer.jpg" class="card-img-top" alt="celulares">
+        <section id="servicios3" class="col-sm-4 s3 tres" onclick="location.href='reparacion.html';">
+            <div class="card" style="width: 25rem;">
+                <img id="foto" src="resurces/images/img/gamer.jpg" class="card-img-top" alt="celulares">
                 <div class="card-body">
                     <h5 class="card-title">Personalización de equipo de cómputo</h5>
                     <p class="card-text">¡Te ayudamos a armar tu PC Gamer! Nos adaptamos a tu presupuesto</p>
-                    <a id="boton" href="person.html" class="btn btn-primary">Ver mas</a>
-                </div>
-            </div>
-        </section>
-        <section id="servicios4">
-            <div class="card" style="width: 18rem;">
-                <img id="foto3" src="img/lavadora.jpg" class="card-img-top" alt="celulares">
-                <div class="card-body">
-                    <h5 class="card-title">Reparación de electrodomésticos</h5>
-                    <p class="card-text">¿No sirve tu lavadora? nosotros la reparamos, solo agenda tu cita.</p>
-                    <a id="boton" href="lavadora.html" class="btn btn-primary">Ver mas</a>
+                    <a id="boton" href="reparacion.html" class="btn btn-primary">Ver mas</a>
                 </div>
             </div>
         </section>
     </div>
 
+    <div class="col-md-12 elcndos">
+   
+        <section id="servicios4" class="cuatro" onclick="location.href='reparacion.html';">
+            <div class="card card1" style="width: 25rem;">
+                <img id="foto" src="resurces/images/img/lavadora.jpg" class="card-img-top" alt="celulares"> 
+                <div class="card-body">
+                    <h5 class="card-title">Reparación de electrodomésticos</h5>
+                    <p class="card-text">¿No sirve tu lavadora? nosotros la reparamos, solo agenda tu cita.</p>
+                    <a id="boton" href="reparacion.html" class="btn btn-primary">Ver mas</a>
+                </div>
+            </div>
+        </section>
+    </div>
+    </div>
 
+     <!-- FOOTER -->
+<div class="col-sm-12 footerr bg-dark text-white justify-content-center">
+    <footer class="abajo">
+        <div class="navs ">
+            <nav class="ftp">
+                <ul class="nav">
+                    <li class="nav-link"><a href="">Email</a></li>
+                    <li class="nav-link"><a href="">Faceboock</a></li>
+                    <li class="nav-link"><a href="">whatsapp</a></li>
+                </ul>
+            </nav>
+        </div>
+        <p>
+            &copy; 2022 Company ServiElectronic, Inc
+        </p>
+
+    </footer>
+</div>
 </body>
 <script src="menusa.js"></script>
 

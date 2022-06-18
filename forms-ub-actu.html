@@ -20,7 +20,6 @@
     <link rel="stylesheet" href="resurces/estilos-css/estilos.css">
     <link rel="stylesheet" href="resurces/estilos-css/querys.css">
     <link rel="stylesheet" href="resurces/estilos-css/form1.css">
-    <link rel="stylesheet" href="resurces/estilos-css/form.css">
 </head>
 <header class="p.3 bg-white text-white cabeza">
     <div class="container">
@@ -36,13 +35,13 @@
 
 
                 <ul class="nav nav-menu col-12 ms-auto col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="#" class="nav-link px-3 text-secondary nav-menu-item aus">INICIO</a></li>
-                    <li><strong><a href="#" class="nav-link px-3 text-black nav-menu-item ns ">SERVICIOS</a></strong>
+                    <li><a href="index.html" class="nav-link px-3 text-secondary nav-menu-item aus">INICIO</a></li>
+                    <li><strong><a href="servicios.html" class="nav-link px-3 text-black nav-menu-item ns ">SERVICIOS</a></strong>
                     </li>
-                    <li><strong><a href="#" class="nav-link px-3 text-black nav-menu-item ns">¿QUIENES
+                    <li><strong><a href="QuienesSomos.html" class="nav-link px-3 text-black nav-menu-item ns">¿QUIENES
                                 SOMOS?</a></strong>
                     </li>
-                    <li><strong><a href="#" class="nav-link px-3 text-black nav-menu-item ns">CONTACTO</a></strong></li>
+                    <li><strong><a href="contactenos.html" class="nav-link px-3 text-black nav-menu-item ns">CONTACTO</a></strong></li>
                     <div class="text-end buscador">
                         <form class="col-12 col-lg-auto col-md-6 mb-3 mb-lg-0 me-lg-3 buscadore" role="search">
                             <input type="search" class="form-control form-control-dark text-dark bg-light  act"
@@ -67,7 +66,7 @@
 </header>
 
 
-<body>
+<body class="cuerpo">
 
     <div class="row contenedor col-sm-12 mb-5 pb-5">
         <div class="titulo col-sm-7 text-center">
@@ -75,42 +74,42 @@
                 Tu ubición
             </h1>
         </div>
-        <div class=" col-sm-7 unocontenido text-center">
+        <div class=" col-sm-7 unocontenido">
             <form class="formulario">
-                <div class="form-group col-sm-10 das ins hcd  ">
+                <div class="form-group col-sm-12 das inputa mb-5 pb-5">
                     <label for="" class="intro">Ingresa tu codigo postal</label>
                     <input type="text" class="form-control" id="exampleFormControlInput1"
                         placeholder="Ingresa tu codigo postal" required>
                 </div>
-                <div class="form-group selects col-md-4 ins2 am">
+                <div class="form-group  col-md-6 inputb asas mb-5 pb-5">
                     <label for="" class="intro">Seleciona tu alcaldia</label>
-                    <select class="form-control am" id="exampleFormControlSelect1" required>
+                    <select class="form-control" required>
                         <option>Selecciona tu alcaldia</option>
                         <option>Iztapalapa</option>
                     </select>
                 </div>
-                <div class="form-group col-md-5 das ins2 asa hcd">
+                <div class="form-group col-md-6 inputb doss">
                     <label for="" class="intro">Ingresa tu colonia</label>
-                    <input type="text" class="form-control " id="exampleFormControlInput1"
+                    <input type="text" class="form-control anmn" 
                         placeholder="Ingresa tu colonia" required>
                 </div>
-                <div class="form-group col-md-5 das ins3  hcd am">
+                <div class="form-group col-sm-6 inputc mt-4 pt-4 ">
                     <label for="" class="intro">Ingresa el nombre de tu calle</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                    <input type="text" class="form-control anmn1" id="exampleFormControlInput1"
                         placeholder="Ingresa el nombre de tu calle" required>
                 </div>
-                <div class="form-group col-sm-5 das ins3 asa1 hcd">
+                <div class="form-group col-sm-6  inputc tress mt-4 pt-4">
                     <label for="" class="intro">Ingresa Mz y Lt</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa Mz y Lt"
+                    <input type="text" class="form-control anmn2" id="exampleFormControlInput1" placeholder="Ingresa Mz y Lt"
                         required>
                 </div>
-                <div class="form-group col-sm-10 das ins4 hcd">
+                <div class="form-group col-sm-12 inputcuatr mt-5 pt-5 ">
                     <label for="" class="intro">Ingresa un numero telefonico</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                    <input type="text" class="form-control anmn3" id="exampleFormControlInput1"
                         placeholder="Ingresa un numero telefonico" required>
                 </div>
-                <div class="col-sm-10 text-center bas">
-                    <button type="button" class="btn btn-primary col-md-9 btous btouu"
+                <div class="col-sm-12 text-center btns mt-4 pt-4">
+                    <button type="button" class="btn btn-primary col-md-12 btous btouu"
                         onclick="location.href='form-solicit-serv.html';">Actualizar</button>
                 </div>
             </form>
@@ -121,27 +120,23 @@
         </div>
 
     </div>
-
-    <div class="bg-dark pie">
-        <footer class="py-3 my-4">
-            <ul class="nav justify-content-center  pb-3 mb-6">
-                <li class="nav-item"><a href="#" class="nav-link px-2 enlace">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 enlace">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 enlace">Pricing</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 enlace">FAQs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 enlace">About</a></li>
-            </ul>
-            <div>
-                <p class="text-center text-muted copyright">© 2022 Company ServiElectrnonic, Inc</p>
+    <div class="col-sm-12 footerr bg-dark text-white justify-content-center">
+        <footer class="abajo">
+            <div class="navs ">
+                <nav class="ftp">
+                    <ul class="nav">
+                        <li class="nav-link"><a href="">Email</a></li>
+                        <li class="nav-link"><a href="">Faceboock</a></li>
+                        <li class="nav-link"><a href="">whatsapp</a></li>
+                    </ul>
+                </nav>
             </div>
+            <p>
+                &copy; 2022 Company ServiElectronic, Inc
+            </p>
+
         </footer>
     </div>
-
-
-
-
-
-
 </body>
 <script src="menusa.js"></script>
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>

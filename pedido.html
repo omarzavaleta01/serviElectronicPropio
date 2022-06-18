@@ -11,22 +11,20 @@
 
     <link rel="canonical" href="https://getbootstrap.com/doc/5.2/examples/headers/">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="resurces/fontawesome/css/all.css">
-   
+
     <link rel="stylesheet" href="encabezado.css">
     <link rel="stylesheet" href="query_menu.css">
-    <link rel="stylesheet" href="resurces/estilos-css/estilos.css">
     <link rel="stylesheet" href="resurces/estilos-css/querys.css">
-    <link rel="stylesheet" href="resurces/estilos-css/form1.css">
     <link rel="stylesheet" href="resurces/estilos-css/entrega.css">
-    
+
 
     <!-- Custom styles for this template -->
 
-    
-  
-   
+
+
+
 </head>
 <header class="p.3 bg-white text-white cabeza">
     <div class="container">
@@ -37,27 +35,31 @@
                 </svg>
             </a>
             <img src="resurces/images/logo1.jpg" class="logo" width="100" height="60">
-            
+
             <nav class="nav1">
-               
-               
-            <ul class="nav nav-menu col-12 ms-auto col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="#" class="nav-link px-3 text-secondary nav-menu-item aus">INICIO</a></li>
-                <li><strong><a href="#" class="nav-link px-3 text-black nav-menu-item ns ">SERVICIOS</a></strong></li>
-                <li><strong><a href="#" class="nav-link px-3 text-black nav-menu-item ns">¿QUIENES SOMOS?</a></strong>
-                </li>
-                <li><strong><a href="#" class="nav-link px-3 text-black nav-menu-item ns">CONTACTO</a></strong></li>
-                <div class="text-end buscador">
-                    <form class="col-12 col-lg-auto col-md-6 mb-3 mb-lg-0 me-lg-3 buscadore" role="search">
-                        <input type="search" class="form-control form-control-dark text-dark bg-light  act"
-                            placeholder="Buscar..." aria-label="Search">
-                    </form>
-                </div>
-                <div class="login">
-                    <li><strong><a href="#" class="nav-link px-3 text-black"><i class="fa-solid fa-circle-user fa-3x"
-                                    title="Iniciar sesión"></i></a></strong></li>
-                </div>
-            </ul>
+
+
+                <ul class="nav nav-menu col-12 ms-auto col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="index.html" class="nav-link px-3 text-secondary nav-menu-item aus">INICIO</a></li>
+                    <li><strong><a href="servicios.html"
+                                class="nav-link px-3 text-black nav-menu-item ns ">SERVICIOS</a></strong></li>
+                    <li><strong><a href="QuienesSomos.html" class="nav-link px-3 text-black nav-menu-item ns">¿QUIENES
+                                SOMOS?</a></strong>
+                    </li>
+                    <li><strong><a href="contactenos.html"
+                                class="nav-link px-3 text-black nav-menu-item ns">CONTACTO</a></strong></li>
+                    <div class="text-end buscador">
+                        <form class="col-12 col-lg-auto col-md-6 mb-3 mb-lg-0 me-lg-3 buscadore" role="search">
+                            <input type="search" class="form-control form-control-dark text-dark bg-light  act"
+                                placeholder="Buscar..." aria-label="Search">
+                        </form>
+                    </div>
+                    <div class="login">
+                        <li><strong><a href="login.html" class="nav-link px-3 text-black"><i
+                                        class="fa-solid fa-circle-user fa-3x" title="Iniciar sesión"></i></a></strong>
+                        </li>
+                    </div>
+                </ul>
             </nav>
         </div>
     </div>
@@ -70,11 +72,12 @@
 </header>
 
 <body>
-    
+
 
     <div class="col-sm-2 redire">
-        <i class="fa fa-arrow-left fa-4x n" aria-hidden="true"><a href="form-solicit-serv.html"></a></i>
-        <small class="sn">Regresar</small>
+        <button class="fa fa-arrow-left fa-4x n" aria-hidden="true"
+            onclick="location.href='form-solicit-serv.html';"></button><a href="form-solicit-serv.html"></i>
+            <small class="sn">Regresar</small></a>
     </div>
     <div class="col-sm-6 ent">
         <h1 class="texto">
@@ -162,41 +165,60 @@
                 <h5 class="nasi1">Total: pendiente</h5>
             </div>
         </div>
-        <div class="col-sm-10 text-center bas desarga">
-            <button type="button" class="btn btn-primary col-md-9 btous btouu"
-                onclick="location.href='form-solicit-serv.html';">Descargar cita</button>
+    </div>
+    <div class="col-md-12 cruds justify-content-center">
+        <div class="col-md-12 bocurs justify-content-center">
+            <div class="col-md-3 editar justify-content-center text-center mt-4"  onclick="location.href='updCita.html';">
+                <i class="fas fa-edit fa-6x"></i>
+                <div class="col-md-12 acciones">
+                    <span class="span">Editar</span>
+                </div>
+            </div>
+            <div class="col-md-3 eliminar justify-content-center text-center mt-4">
+                <i class="fa-solid fa-trash-can fa-6x"></i>
+                <div class="col-md-12 acciones">
+                    <span class="span">Eliminar</span>
+                </div>
+            </div>
+            <div class="col-md-3 enviar justify-content-center text-center mt-4">
+                <i class="fa fa-check fa-6x"></i>
+                <div class="col-md-12 acciones">
+                    <span class="span">Aceptar e enviar</span>
+                </div>
+            </div>
+            <div class="col-md-3 desargar justify-content-center text-center mt-4">
+                <i class="fa fa-download fa-6x"></i>
+                <div class="col-md-12 acciones">
+                    <span class="span text-center">Descargar cita</span>
+                </div>
+            </div>
         </div>
     </div>
-
-    <div class="bg-dark pie">
-        <footer class="py-3 my-4">
-            <ul class="nav justify-content-center  pb-3 mb-6">
-                <li class="nav-item"><a href="#" class="nav-link px-2 enlace">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 enlace">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 enlace">Pricing</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 enlace">FAQs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 enlace">About</a></li>
-            </ul>
-            <div>
-                <p class="text-center text-muted copyright">© 2022 Company ServiElectrnonic, Inc</p>
+    <div class="col-sm-12 footerr2 bg-dark text-white justify-content-center">
+        <footer class="abajo">
+            <div class="navs ">
+                <nav class="ftp">
+                    <ul class="nav">
+                        <li class="nav-link"><a href="">Email</a></li>
+                        <li class="nav-link"><a href="">Faceboock</a></li>
+                        <li class="nav-link"><a href="">whatsapp</a></li>
+                    </ul>
+                </nav>
             </div>
+            <p>
+                &copy; 2022 Company ServiElectronic, Inc
+            </p>
+
         </footer>
     </div>
 
-
-
-
-
-
 </body>
 
-<script src="resurces/js/menu.js"></script>
+
 <script src="menusa.js"></script>
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
-<script src="recursos/fontawesome/js/all.js"></script>
-
 
 </html>

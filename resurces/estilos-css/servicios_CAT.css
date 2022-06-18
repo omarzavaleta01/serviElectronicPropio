@@ -1,0 +1,406 @@
+#comp {
+  border: 1px solid black;
+  padding-bottom: 70px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+#titulo,
+#sub {
+  margin-top: 30px;
+  margin-left: 100px;
+  font-weight: 1000;
+}
+
+#boton {
+  width: 100% !important;
+}
+#boton:hover {
+  background-color: #51d1f6 !important;
+  border: none !important;
+  font-weight: 600 !important;
+  transition: all 600ms;
+}
+#servicios {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.uno {
+  margin-right: -20vw !important;
+}
+
+.card {
+  position: absolute;
+  margin: 0 auto !important;
+  height: 40vw;
+  min-height: 45vw;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+  backdrop-filter: blur(2px) !important;
+  border: rgba(255, 255, 255, 0.18) !important;
+}
+
+#foto {
+  display: flex;
+  position: relative;
+  height: 36% !important;
+}
+
+#foto2 {
+  width: 286px;
+  height: 241px;
+}
+
+#foto3 {
+  width: 286px;
+  height: 241px;
+}
+
+#servicios4 {
+  position: relative;
+  display: block;
+}
+.cu {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 200%;
+  line-height: 80px !important;
+  transform: translate(0%, 75px);
+}
+.elcnuno {
+  position: relative;
+  display: flex;
+  height: auto;
+  width: 100% !important ;
+  max-width: 100% !important ;
+  flex-basis: 100% !important;
+  justify-content: space-between;
+  align-items: center !important;
+  left: 1%;
+}
+.dos {
+  margin-left: 15vw;
+}
+.elcndos {
+  position: relative;
+  display: flex;
+  height: auto;
+  width: 100% !important ;
+  max-width: 100% !important ;
+  flex-basis: 100% !important;
+  justify-content: space-between;
+  align-items: center !important;
+  left: 7.2%;
+  margin-top: 5%;
+  transform: translate(0%, 95vh);
+}
+
+body {
+  overflow-x: hidden !important;
+}
+.buscador form {
+  position: absolute;
+  display: flex;
+  margin-left: 4%;
+  left: -12vw !important;
+  top: 4vh !important;
+  background-color: #51d1f6;
+}
+.login {
+  position: absolute;
+  transform: translate(-.5vw, 1vh);
+}
+.card:hover {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  cursor: pointer !important;
+}
+#footters1 {
+  position: absolute;
+  bottom: -100vw !important;
+  height: 35%;
+  min-height: 35%;
+  max-height: 35%;
+}
+@media only screen and (max-width: 1366px) {
+  .dos {
+    margin-left: 18vw !important ;
+  }
+  #servicios4 {
+    position: relative !important;
+    display: block !important;
+    left: -4% !important;
+  }
+}
+@media only screen and (max-width: 960px) {
+  nav {
+    transform: translate(-1%, 0%) !important;
+    background-color: #51d1f6 !important;
+  }
+  .buscadore {
+    position: relative !important;
+    top: -7.2vh !important;
+  }
+  .login {
+    transform: translate(36vw, -8.4vh) !important;
+  }
+  .footerr {
+    position: absolute;
+    bottom: -265vh !important;
+    height: 20%;
+    min-height: 20%;
+    max-height: 20%;
+  }
+  .navs {
+    width: 100% !important;
+    max-width: 50vw !important;
+    flex-basis: 100% !important;
+    max-height: 10vh !important;
+    min-height: 10vh !important;
+    height: 10vh !important;
+    transform: translate(-22vw, 0%) !important;
+  }
+  .buscador{
+    position: relative !important ;
+    display: block !important;
+    transform: translate(15vw,-45%) !important;
+    margin-left: 4% !important;
+  }
+  .nav1{
+    transform: translate(25%,0%) !important;
+  }
+ 
+}
+@media only screen and (max-width: 1024px) {
+
+  .elcndos{
+
+    max-height:90vh !important ;
+    min-height:90vh !important ;
+    height: 90vh !important;
+    position: relative !important;
+    top: 100vh !important;
+    margin: 0 !important;
+    padding: 0 !important;
+   
+    transform: translate(0%,150vh) !important;
+  }
+  #servicios4{
+    position: absolute !important;
+    top: 100vh !important;
+    transform: translate(15vw,-100vh) !important;
+    max-height:90vh !important ;
+    min-height:90vh !important ;
+    height:90vh !important;
+
+  }
+  .footerr{
+    bottom: -310vh !important;
+  }
+
+}
+@media only screen and (max-width: 820px) {
+  .container,
+  .cabeza {
+    max-width: 100% !important;
+    width: 100% !important;
+    flex-basis: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .nav {
+    position: fixed !important;
+    top: -3vh !important;
+  }
+  .login {
+    position: absolute !important;
+    transform: translate(47.5vw, 7.5vh) !important;
+    top: 50%;
+    left: 0 !important;
+  }
+  .buscadore {
+    position: absolute;
+    top: 50%;
+    transform: translate(-5vw, 1.7vh) !important;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .elcnuno,
+  .elcndos {
+    width: 95vw !important;
+    max-width: 95vw !important;
+    flex-basis: 95vw !important;
+    position: absolute !important;
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100% !important;
+    margin-top: -100px !important;
+  }
+  .elcndos {
+    left: 0 !important;
+  }
+  .uno,
+  .dos,
+  .tres {
+    position: relative !important;
+    display: flex !important;
+    width: 80vw !important;
+    max-width: 80vw !important;
+    flex-basis: 80vw !important;
+    left: -10% !important;
+    height: 35% !important;
+    min-height: 35% !important ;
+    max-height: 35% !important ;
+    margin-top: 40vw !important;
+    margin: 0 !important;
+    margin-bottom: 10vw !important;
+  }
+  .uno {
+    transform: translate(14%, 25vw) !important;
+  }
+  .dos {
+    transform: translate(14%, 20vw) !important;
+  }
+  .tres {
+    transform: translate(15%, 20vw) !important;
+  }
+
+  .cuatro {
+    position: relative !important;
+    top: 50vw !important;
+    transform: translate(-32.7vw, 150vw) !important;
+    height: 35% !important;
+    margin-top: 95vw !important;
+    margin: 0 !important;
+  }
+
+  .card {
+    zoom: 130% !important;
+    width: 60vw !important;
+    max-width: 60vw !important;
+    flex-basis: 60vw !important;
+    backdrop-filter: none !important;
+    height: 90% !important;
+  }
+  #foto {
+    height: 20vh !important;
+  }
+  #titulo,
+  #sub {
+    margin-top: 85px !important;
+    position: relative !important;
+    transform: translate(-5vw, 0%) !important;
+    margin-bottom: -5% !important;
+  }
+
+  .navs {
+    transform: translate(-12vw, 0%) !important;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .uno,
+  .dos,
+  .tres {
+    height: 55% !important;
+    min-height: 55% !important ;
+    max-height: 55% !important ;
+  }
+  .tres {
+    margin-bottom: 10vw !important;
+  }
+  .elcndos {
+    position: absolute !important;
+    top: 100vw !important;
+    margin-top: 100% !important;
+    transform: translate(0%, 600vw) !important;
+  }
+  .cuatro {
+    top: 2vw !important;
+    transform: translate(-32.7vw, 2vw) !important;
+    height: 55% !important;
+    min-height: 55% !important ;
+    max-height: 55% !important ;
+  }
+  .footerr {
+    bottom: -380vh !important;
+  }
+
+  .buscador form {
+    left: -22vw !important;
+    top: -8vh !important;
+  }
+  .login {
+    transform: translate(20vw, 94vh) !important;
+  }
+  .nav1 {
+    width: 100% !important ;
+    max-width: 100% !important;
+    flex-basis: 100% !important;
+  }
+  .ftp a {
+    font-size: 14px !important;
+  }
+  .abajo p {
+    margin-top: -5% !important;
+    font-size: 14px !important;
+  }
+  .elcndos {
+    transform: translate(0%, 330vh) !important;
+    height: 95vh !important ;
+    min-height: 95vh !important ;
+    max-height: 95vh !important ;
+  }
+  .nav-menu-active {
+    width: 100vw !important;
+    max-width: 100vw !important ;
+    flex-basis: 100vw !important ;
+    min-width: 100vw !important ;
+    top: 40px !important;
+    
+    transform: translate(-15%, 0vh) !important;
+  }
+  .nav-menu a {
+    transform: translate(0%, -12vh) !important;
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  .elcndos {
+    top: -34vh !important;
+    height: 95vh !important ;
+    min-height: 95vh !important ;
+    max-height: 95vh !important ;
+  }
+  .cuatro {
+    height: 100vh !important ;
+    min-height: 100vh !important ;
+    max-height: 100vh !important ;
+  }
+  .footerr {
+    bottom: -395vh !important;
+  }
+}
+
+.footerr{
+  position: absolute;
+  bottom: -210vh;
+  width: 100%;
+  max-width: 100%;
+  flex-basis: 100%;
+  height: 35% !important;
+  min-height: 35% !important;
+  max-height: 35% !important;
+  display: flex;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  margin-top: -200vh;
+  justify-items: center !important;
+  justify-content: space-between;
+  align-items: center;
+}

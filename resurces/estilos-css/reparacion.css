@@ -1,0 +1,223 @@
+#content {
+  position: relative;
+  display: flex;
+  top: 85px;
+  padding-bottom: 70px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  width: 100vw;
+  height: 80vh;
+  margin-bottom: 25vh !important;
+}
+
+#titulo {
+  margin-top: 30px;
+  margin-left: 100px;
+  font-weight: 1000;
+}
+
+#tarjeta {
+  max-width: 1000px;
+  margin-left: 100px;
+  height: 360px;
+}
+
+#computo {
+  height: 360px;
+}
+
+#parrafo {
+  text-align: justify;
+}
+
+#boton {
+  margin-left: 490px;
+  margin-top: 100px;
+}
+#boton:hover {
+  background-color: #51d1f6 !important;
+  border: none !important;
+  font-weight: 600 !important;
+  transition: all 600ms;
+}
+
+.buscadore {
+  display: flex !important;
+  position: relative !important;
+  left: 45% !important;
+  transform: translate(-250px, 0%) !important;
+  top: 20px;
+}
+.login {
+  display: flex;
+  position: relative;
+  left: 13%;
+  line-height: 70px !important;
+  transform: translate(-250px, 0%);
+  margin: 0 !important;
+  padding: 0 !important;
+  top: 8px;
+}
+.tit {
+  width: 100%;
+  margin-bottom: 5%;
+}
+#titulo {
+  max-width: 100% !important;
+  flex-basis: 100% !important;
+  max-width: 100% !important;
+  text-justify: auto;
+}
+
+.nas {
+  width: 100vw;
+  position: absolute;
+  top: 28%;
+  left: 0vw !important;
+  margin: 0 auto;
+  padding: 0;
+  left: 0;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-bottom: 15vh !important;
+}
+.tag {
+  position: relative;
+  margin: 0 auto !important;
+  display: flex;
+  justify-items: center !important;
+  align-items: center !important;
+  width: 70vw !important;
+  max-width: 70vw !important;
+  flex-basis: 70vw;
+  margin-bottom: 15vh !important;
+}
+.ansa {
+  display: flex;
+  justify-content: center !important;
+  height: 38vh;
+}
+.card-body {
+  line-height: 2vw;
+  width: 90% !important;
+  max-width: 90% !important;
+  justify-content: center !important;
+  text-align: center !important;
+  height: 38vh;
+}
+.card-title {
+  font-weight: 800;
+  margin-top: 5%;
+}
+.card-text {
+  font-weight: 500;
+}
+.btouu {
+  position: relative;
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+.bms {
+  max-width: 100%;
+  width: 100%;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+button.btouu:hover {
+  background-color: #51d1f6 !important;
+  border: none !important;
+  font-weight: 600 !important;
+  transition: all 600ms;
+}
+.tag {
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+  backdrop-filter: blur(2px) !important;
+  border: rgba(255, 255, 255, 0.18) !important;
+}
+
+.login {
+  transform: translate(11.5vw, -7.5vh);
+}
+
+.buscadore {
+  transform: translate(21.3vw, -7.5vh) !important;
+}
+
+.footerr {
+  bottom: -35vh !important;
+  height: 35% !important;
+  min-height: 35% !important;
+  max-height: 35% !important;
+}
+
+@media only screen and (max-width: 960px) {
+  .tag {
+    width: 95% !important;
+    max-width: 95% !important ;
+    flex-basis: 95% !important ;
+    backdrop-filter: none !important;
+  }
+  .tit {
+    position: relative !important;
+    left: 0 !important;
+    height: 20vw !important;
+    max-height: 20vw !important ;
+    min-height: 20vw !important;
+    padding: 0 !important;
+  }
+  #titulo {
+    position: absolute !important;
+    width: 80% !important;
+    left: 3% !important;
+    top: 30% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .card-body {
+    line-height: 28px !important;
+  }
+
+  .buscadore {
+    background-color: #51d1f6 !important;
+    position: relative !important;
+    top: -50px !important;
+    left: 235px !important;
+    transform: translate(30%, 10%) !important;
+  }
+  .login {
+    position: relative !important;
+    top: -60px !important;
+    left: 155px ;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .ansa,
+  .card-body {
+    display: block !important;
+    margin-bottom: 120vw !important;
+    transform: translate(2vw, 0%) !important;
+  }
+  .nav-menu form {
+    transform: translate(-44vw, 0%) !important;
+  }
+  .fa-solid {
+    color: white !important;
+    transform: translate(-25vw, 180%) !important;
+  }
+  body {
+    height: 500vw !important;
+  }
+  .buscador form {
+    position: relative !important ;
+    left: 44vw !important;
+    top: -8vh !important;
+    transform: translate(1vw,0%) !important;
+  }
+  .login  {
+    position: relative !important ;
+    top: -18vh !important;
+    left: 45vw !important;
+    transform: translate(8vw, -17vh) !important;
+  }
+}

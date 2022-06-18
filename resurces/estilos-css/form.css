@@ -1,187 +1,401 @@
-.contenedor {
+
+
+.contenedor{
     width: 99vw;
     height: 100vh;
-    padding: 0;
+    padding: 0 !important;
     line-height: 120px !important;
     margin-top: 40px;
     position: relative;
     top: 0%;
     margin: 0 !important;
-    left: 0 !important;
+    left: 0 !important; 
 }
 
-.unocontenido {
+.unocontenido{
     width: 55vw;
     height: 70vh;
     position: relative;
-    top: 3%;
+    top: 0px;
+    line-height: 70px;
     display: block !important;
     left: 0;
     margin: 0;
+   
+    
+
 }
 
-.doscontenido {
+.doscontenido{
+    position: absolute;
+    top: 70px;
+    right: 0 !important;
     width: 45vw;
     flex-basis: 45vw !important;
     max-width: 45vw !important;
     height: 100vh;
-    position: absolute;
     right: 0;
     margin: 0;
     padding: 0;
     box-sizing: content-box !important;
-    line-height: 120px !important;
+    line-height: 70px !important;
+    
+   
+   
+}
+.repe{
+    position: absolute;
+    display: flex ;
+    top: 5px;
+    right: 0 !important;
+    width: 45vw !important;
+    height: 60vw;
+    border-radius: 10px;
+    margin: 0 ;
+    padding: 0;
+    transition: all 0.2s;
+    transform: translate(.3%,-.5%);
+    box-sizing: content-box !important;
+    line-height: 70px !important;
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37) !important;
+    backdrop-filter: blur(2px) !important;
+    border: rgba(255,255,255, 0.18) !important;
+}
+.selects{
+    display: inline-block;
+    width: 41% !important;
+    margin: 0 !important;
+    padding: 0!important;
+    
+
+}
+.s1u{
+    width: 100% !important;
+    margin: 0 !important;
+    position: relative;
+    left: -2% !important;
+
+}
+.s2u{
+    width: 100% !important;
+    margin: 0 !important;
+  
+}
+.form-group{
+    margin: 0 auto;
     
 }
-
-.repe {
-    width: 45vw !important;
-    height: 105vh;
-    border-radius: 10px;
-    transition: all 0.2s;
-    transform: translate(.3%, -.5%);
-    box-sizing: content-box !important;
-    line-height: 120px !important;
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
-    backdrop-filter: blur(2px) !important;
-    border: rgba(255, 255, 255, 0.18) !important;
-}
-
-.selects {
-    display: inline-block;
-}
-
-.form-group {
-    margin: 0 auto;
-}
-
-.form-group {
+.form-group{
     margin-right: 30px !important;
 }
+#exampleFormControlTextarea1{
 
-#exampleFormControlTextarea1 {
     margin-right: 0;
     position: relative;
     display: block;
-    flex-basis: 101%;
+    flex-basis: 101% ;
     width: 100.5%;
     left: 0 !important;
+
+    
 }
 
-.das {
+.das{
     display: inline-block;
     margin-bottom: 0;
     padding-bottom: 0;
 }
 
-.btou {
+.btounn{
+
+    position: relative;
+    transform: translate(1%,2vw) !important;
     margin-right: 0;
     display: flex;
     position: relative;
     left: 4% !important;
-    top: 4% !important;
+    top: 4% !important;   
 }
+.btous{
 
-.btous {
     flex-basis: 46.5vw;
     width: 46.5vw;
     position: relative;
-    top: -5%;
+    top: 5%;
     left: -1% !important;
     margin-bottom: 10% !important;
     margin-top: 5%;
+    transform: translate(0%,1vw) !important;
 }
 
-.titulo {
-    position: relative;
-    top: 5%;
+.unocontenido{
+    margin-top: 85px;
 }
-
-.text {
+.text,.titulo{
     font-weight: 800;
+    margin-top: 85px;
 }
+select, textarea, input{
 
-select,
-textarea,
-input {
-    border-color: rgb(10, 10, 10) !important;
+    border-color:rgb(10, 10, 10) !important;
+    
 }
-
-.form-control:focus {
+.form-control:focus{
     background-color: rgba(205, 205, 205, 0.2) !important;
     transition: all 600ms;
 }
-
-.form-control:hover {
+.form-control:hover{
     border-color: #51D1F6 !important;
     transition: all 600ms;
-}
 
-button.btouu:hover {
-    background-color: #51D1F6 !important;
+}
+button:hover{
+    background-color: #51D1F6 !important; 
     border: none !important;
     font-weight: 600 !important;
     transition: all 600ms;
 }
+button.btouu:hover{
 
-.formulario {
-    width: 98% !important;
-    height: auto !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    margin-bottom: 10% !important;
-    display: block !important;
+    background-color: #51D1F6 !important; 
+    border: none !important;
+    font-weight: 600 !important;
+    transition: all 600ms;
 }
+.formulario{
+   
+   width: 98% !important;
+   height: auto !important;
+   margin: 0 !important;
+   padding: 0 !important;
+   margin-bottom: 10% !important;
+   display: block !important;
+   transform: translate(0%,-2vw);
+}
+.intro{
 
-.intro {
     display: flex;
-    position: relative;
+    position:  relative;
+    left: 0 !important;
+    top: 12% !important;
     margin: 0;
     padding: 0;
     bottom: 100%;
-    transform: translate(0%, -150%) !important;
+    transform: translate(0%,-85%) !important;
     color: rgba(205, 205, 205);
     font-weight: 600;
     height: 30px;
+    margin-top: 22px;
 }
 
-.areataxt {
+.areataxt{
     margin: 0;
     padding: 0;
     display: block;
     position: relative !important;
     left: 4.5% !important;
-    transform: translate(0%, -11%);
-    flex-basis: 86.5%;
+    transform: translate(0%,-11%);
+    flex-basis: 86.5% ;
     width: 86.5%;
+    
 }
 
-.btou {
-    background-color: #51D1F6;
+.btou{
     margin: 0;
     padding: 0;
     display: block;
     position: relative !important;
     left: 5% !important;
-    transform: translate(0%, -11%);
+    transform: translate(0%,-11%);
     flex-basis: 86.5% !important;
     width: 86.5% !important;
 }
+.a{
 
-.a {
     position: fixed !important;
     left: 0% !important;
     margin-bottom: 10% !important;
+
 }
 
-.pie {
-    color: #fff;
-    position: relative !important;
-    bottom: 0 !important;
-    left: 0 !important;
-    right: 0% !important;
+
+
+.nasi{
+    position: relative;
+    bottom: -14vw !important;
     margin: 0 !important;
-    padding: 0 !important;
-    width: 100vw;
-    height: 20vh;
+    padding: 0;
+    right: 0;
+    height: 16vw !important;
+    margin-top: 72px !important;
+    padding-bottom: 1% !important;
+  }
+
+  
+
+  .footerr1{
+
+    position: absolute;
+    bottom: -77vh;
+    width: 100%;
+    max-width: 100%;
+    flex-basis: 100%;
+    height: 35% !important;
+    min-height:35% !important;
+    max-height: 35% !important; 
+    display: flex;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    margin-top: -200vh;
+    justify-items: center !important;
+    justify-content: space-between;
+    align-items: center;;
+
+  }
+  /*QUERYS-----------------------------------------------------------------*/
+
+@media only screen and (max-width:960px)  {
+
+    .unocontenido{
+        position: absolute !important;
+        max-width: 60% !important;
+        width: 60% !important;
+        flex-basis: 60% !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-content: space-between !important;
+        top: 80px !important;
+    }
+    .formulario{
+        position: relative !important;
+        top: 80px !important;
+        max-width: 95% !important;
+        width: 95% !important;
+        flex-basis: 95% !important;
+        margin: 0 auto !important;
+        justify-content: center!important;
+    }
+
+    .ins,.ins1{
+        width: 45.8% !important;
+        max-width: 45.8% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        margin-right: 2% !important;
+    }
+    .areataxt{
+        display: block !important;
+        transform: translate(5px,0%) !important;
+        width: 94.5% !important;
+        max-width:95.5% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .doscontenido{
+
+        width: 40% !important;
+        position: absolute !important;
+        right: 0 !important;
+        transform: translate(0%,1.1%) !important;
+        min-height:80% !important;
+        max-height: 80% !important;
+        height: 80% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .repe{
+        position: fixed;
+        min-height:92vh !important;
+        max-height: 92vh!important;
+        height: 92vh !important;
+        margin: 0 !important;
+        padding: 0 !important;
+
+    }
+
+    .titulo{
+     
+        transform: translate(2%,30%) !important;
+        height: 10vw !important; 
+        min-height: 10vw !important ;
+        max-height:  10vw !important;
+        
+    }
+    .text{
+        
+        transform: translate(0px,-50px) !important;
+ 
+        position: relative;
+        top: 50px !important;
+    }
+     
+    .intro{
+        
+        font-size: 10px !important;
+    }
+    #exampleFormControlTextarea1{
+
+        transform: translate(-4%,0%) !important;
+
+    }
+    .btounn{
+        width: 100% !important;
+        height: 5.5% !important;
+        transform: translate(-2.8%,-10vw) !important;
+
+    }
+    .btouua{
+        display: flex !important;
+        transform: translate(-1%,10vw) !important;
+        
+        
+    }
+    .btouu{
+        width: 95% !important;
+        min-width: 95% !important;
+        max-width: 95% !important;
+        flex-basis: 95% !important;
+    }
+    .btns{
+        display: flex !important;
+        transform: translate(2.5%,5vw) !important;
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        
+    }
+
+      body{
+        height: 30% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+      .buscadore{
+        position: relative !important; 
+        top: -60px !important;
+        left: 250px !important;
+    }
+    .login{
+        position: relative !important; 
+        top: -70px !important;
+        left: 150px !important;
+    }
+    .footerr1{
+        bottom: -34vh;
+    }
+    .navs{
+        position: relative !important;
+        width: 100% !important;
+        max-width:100%  !important;
+        flex-basis:100%  !important;
+        max-height:10vh !important;
+        min-height: 10vh !important;
+        height: 10vh !important;
+        transform: translate(-12vw,0%) !important;
+      }
 }
+
+
+
+  /*QUERYS-----------------------------------------------------------------*/

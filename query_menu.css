@@ -18,10 +18,11 @@
     }
     .nav-menu-item{
         line-height: 10vh;
-        color: white !important;
-       
-        
+        color: white !important; 
     }
+    .nav-menu a {
+        color: white !important;
+      }
     .buscadore{
      
         text-align: center;

@@ -48,7 +48,7 @@
 .buscadore {
     display: flex !important;
     position: relative !important;
-    left: 15% !important;
+    left: -75% !important;
     top: 20px;
 }
 
@@ -79,9 +79,10 @@
 .bars__menu span {
     display: block;
     width: 100%;
-    height: 3px;
+    height: 4px;
     margin-top: 6px;
-    background-color: red;
+    background-color:#CEFF25;
+    border: solid black 1px;
     transform-origin: 0px 100%;
     transition: all 600ms;
 }
@@ -97,4 +98,66 @@
 
 .activeline3__bars-menu {
     transform: rotate(-45deg) translate(-4px, 2px) !important;
+}
+
+/*query encabezado*/
+@media only screen and (max-width:960px) {
+
+    .contenidouno{
+        position: absolute ;
+        flex-basis: 100%;
+        max-width: 100%;
+        width: 100%;
+   
+        
+        
+    }
+    .navn{
+      
+        position: fixed;
+        width: 40vw;
+        left: 20%;
+        
+       
+
+    }
+    .nav{
+
+        justify-content: space-between;
+        position: relative;
+        left: 5%;
+        max-width: 140%;
+        width: 140%;
+        top: 4vh;
+  
+   
+        
+    }
+
+    .nav-menu-item{
+
+        font-size: 12px;
+        
+    }
+    .buscadore{
+
+        display: flex !important;
+        position: relative !important;
+        left: 30vw !important;
+        top: -5vh;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .login{
+        display: flex !important;
+        position: relative;
+        top:-6.5vh;
+        left: 20vw !important;
+        margin: 0 !important;
+        padding: 0  !important;
+    }
+    .redire{
+       visibility: hidden;
+    }
+ 
 }
