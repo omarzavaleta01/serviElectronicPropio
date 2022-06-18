@@ -104,16 +104,16 @@ body {
   overflow-x: hidden !important;
 }
 .buscador form {
-  position: absolute;
+  position: relative;
   display: flex;
-  margin-left: 4%;
-  left: -12vw !important;
-  top: 4vh !important;
-  background-color: #51d1f6;
+  margin-left: 5%;
+  left: -9vw;
+  top: 3.5vh;
+  
 }
 .login {
   position: absolute;
-  transform: translate(-.5vw, 1vh);
+  transform: translate(-1vw, -.1vh);
 }
 .card:hover {
   background-color: rgba(0, 0, 0, 0.1) !important;
@@ -141,12 +141,16 @@ body {
     transform: translate(-1%, 0%) !important;
     background-color: #51d1f6 !important;
   }
-  .buscadore {
+  .buscador form{
     position: relative !important;
-    top: -7.2vh !important;
+    top: 2vh !important;
+    left: 0 !important;
+    transform: translate(27vw,-7vh) !important;
   }
-  .login {
-    transform: translate(36vw, -8.4vh) !important;
+  .login li {
+    position: fixed !important;
+    left: 15vw !important;
+    transform: translate(vw, 22vh) !important;
   }
   .footerr {
     position: absolute;
@@ -164,14 +168,8 @@ body {
     height: 10vh !important;
     transform: translate(-22vw, 0%) !important;
   }
-  .buscador{
-    position: relative !important ;
-    display: block !important;
-    transform: translate(15vw,-45%) !important;
-    margin-left: 4% !important;
-  }
   .nav1{
-    transform: translate(25%,0%) !important;
+    transform: translate(-5%,0%) !important;
   }
  
 }
@@ -200,6 +198,17 @@ body {
   }
   .footerr{
     bottom: -310vh !important;
+  }
+  .buscador form{
+    position: relative !important;
+    top: 1vh !important;
+    left: 0 !important;
+    transform: translate(27vw,-7vh) !important;
+  }
+  .login li {
+    position: fixed !important;
+    left: 15vw !important;
+    transform: translate(vw, 22vh) !important;
   }
 
 }

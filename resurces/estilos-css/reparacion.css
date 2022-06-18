@@ -137,11 +137,11 @@ button.btouu:hover {
 }
 
 .login {
-  transform: translate(11.5vw, -7.5vh);
+  transform: translate(-2vw, .3vh);
 }
 
 .buscadore {
-  transform: translate(21.3vw, -7.5vh) !important;
+  transform: translate(-19.3vw, .5vh) !important;
 }
 
 .footerr {
@@ -149,6 +149,16 @@ button.btouu:hover {
   height: 35% !important;
   min-height: 35% !important;
   max-height: 35% !important;
+}
+@media only screen and (max-width: 1920px) {
+  .buscadore {
+    transform: translate(-14.3vw, .5vh) !important;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .buscadore {
+    transform: translate(-20.3vw, .5vh) !important;
+  }
 }
 
 @media only screen and (max-width: 960px) {
