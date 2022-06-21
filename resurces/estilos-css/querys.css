@@ -303,8 +303,14 @@
       flex-basis: 100vw !important ;
       min-width: 100vw !important ;
       top: 40px !important;
-      
       transform: translate(-25%, 0vh) !important;
+    }
+    .buscadorServi{
+      transform: translate(55vw,10%) !important;
+    }
+    .loginServi{
+      position: relative;
+      transform: translate(-40vw,25vw) !important;
     }
   }
 

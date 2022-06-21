@@ -1,0 +1,41 @@
+.fa-calendar,.fa-house{
+    position: absolute;
+    color: white;
+    left: 0;
+}
+.fa-house{
+
+    top: 6%;
+}
+.fa-calendar{
+   
+    top: 27% !important;
+
+}
+
+.footerrr2{
+    position: absolute;
+    bottom: -28vh !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    flex-basis: 100% !important;
+    height: 34% !important;
+    min-height: 34% !important;
+    max-height: 34% !important;
+    display: flex !important;
+    background-color: black !important;
+    margin: 0 !important;
+    padding:0 !important;
+    justify-items: center !important;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width:1366px) {
+    .footerr{
+        bottom: -110vh;
+        margin: 0 !important;
+        padding-bottom: 10% !important;
+    }
+
+     
+}

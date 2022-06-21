@@ -1,0 +1,80 @@
+.bars__menu{
+
+   width: 50px;
+   max-width: 50px;
+   min-width: 50px;
+   flex-basis: 50px;
+   height: 50px;
+   max-height: 50px;
+   height: 50px;
+   position: fixed;
+   left: 0;
+   line-height: 120px;
+   margin-left: 12px;
+   padding: 0;
+  
+}
+.fa-bars {
+    color: #8C8AD8;
+    cursor: pointer;
+    font-weight: 900;
+}
+.fa-bars:hover{
+    color: #ff7987;
+    transition: all 400ms;
+
+}
+.bars-menu li{
+    
+    display: block;
+    width: 100%;
+    height: 50px;
+    max-height: 50px;
+    height: 50px;
+    margin-top: 6px;
+    transform-origin:0px 100% !important;
+    transition: all 600ms !important;
+}
+
+/* CONTROL MENU -----------------------------------------------------*/
+
+.lateral-menu-active{
+
+    left: -100%;
+    transition: left 500ms;
+    overflow-y: scroll;
+
+}
+
+.cuerpoCard-active{
+
+    width:100vw;
+    max-width:100vw;
+    flex-basis:100vw;
+    transition: all 500ms;  
+}
+.logo-active{
+    left: 5vw !important;
+    transition: all 500ms; 
+    margin-left: 2% !important; 
+}
+.bars__menu-active{
+    position: fixed !important;
+}
+.cuerpo-active{
+    width:100vw;
+    max-width:100vw;
+    flex-basis:100vw;
+    background-color: black;
+  }
+
+
+/* QUERY -----------------------------------------------------------------*/
+@media only screen and (max-width: 720px){
+    .tabla-active{
+        width:100vw !important;
+        max-width:100vw  !important;
+        flex-basis:100vw  !important;
+      
+    }
+}

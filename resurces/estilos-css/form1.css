@@ -424,6 +424,9 @@ input {
   .login {
     transform: translate(-40vw, 13vh) !important;
   }
+  .buscadorUbica{
+    transform: translate(52vw,20%) !important;
+  }
 }
 
 /*QUERYS -------------------------------------------------------------*/

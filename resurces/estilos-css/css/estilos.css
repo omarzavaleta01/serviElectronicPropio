@@ -91,3 +91,54 @@
   .ftp a:hover{
   color: #51D1F6;
   }
+
+  btlog:hover{
+    background-color: #51D1F6 !important;
+    color: black !important;
+    font-weight: 800 !important;
+  }
+
+  @media  (max-width:720px) {
+    
+     
+    #fondoLogin{
+      position: fixed !important; 
+      top: 0% !important;
+      height: 100vh !important;
+      max-height: 100vh !important;
+      min-height: 100vh !important;
+      width: 100vw !important;
+      max-width: 100vw !important;
+      flex-basis: 100vw !important;
+    }
+    .subConLog{
+      position: relative !important;
+      top: 15% !important;
+    }
+    btlog:hover{
+      background-color: #51D1F6 !important;
+      color: black !important;
+      font-weight: 800 !important;
+    }
+  }
+  @media  (max-width:920px) {
+    #fondoLogin{
+      position: fixed !important; 
+      top: 0% !important;
+      height: 100vh !important;
+      max-height: 100vh !important;
+      min-height: 100vh !important;
+      width: 100vw !important;
+      max-width: 100vw !important;
+      flex-basis: 100vw !important;
+    }
+    .subConLog{
+      position: relative !important;
+      top: 15% !important;
+    }
+    btlog:hover{
+      background-color: #51D1F6 !important;
+      color: black !important;
+      font-weight: 800 !important;
+    }
+  }

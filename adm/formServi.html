@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="resources/estylos-css/fontawesome/css/all.css">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="resources/estylos-css/general.css">
+    <link rel="stylesheet" href="resources/estylos-css/updCita.css">
+    <link rel="stylesheet" href="resources/estylos-css/menuBurger.css">
+    <link rel="stylesheet" href="resources/estylos-css/extras.css">
+    <script src="https://use.fontawesome.com/d1da709de7.js"></script>
+
+</head>
+<header class="col-md-12 cabeza">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand ta" href="#">Bienvenido</a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link ta" href="#">Nombre del usuario<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ta" href="login.html">Cerrar sesión</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="col-sm-4 logo">
+        <img class="rounded-circle" alt="100x100" src="resources/img/logo1.jpg">
+    </div>
+</header>
+
+<body>
+
+
+    <div class="container lateral-menu col-md-12">
+
+        <nav class="nav">
+            <ul class="nav-menu">
+                <li class="nav-menu-item">
+                    <i class="fa-solid fa-house fa-2x"></i>
+                    <a href="administrativo.html" class="nav-menu-link nav-link">Inicio</a>
+                </li>
+                <li class="nav-menu-item">
+                    <i class="fa-solid fa-calendar fa-2x"></i>
+                    <a href="citas.html" class="nav-menu-link nav-link">Citas</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="tecnicos.html" class="nav-menu-link nav-link">Tecnicos</a>
+                    <i class="fa-solid fa-gear fa-2x"></i>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="usuarios.html" class="nav-menu-link nav-link">Usuarios</a>
+                    <i class="fa-solid fa-users fa-2x"></i>
+                </li>
+                <li class="nav-menu-item ultimo">
+                    <a href="servicios.html" class="nav-menu-link nav-link">Serviciós</a>
+                    <i class="fa fa-wrench fa-2x" aria-hidden="true"></i>
+                </li>
+                <li class="nav-menu-item ultimo">
+                    <a href="dispositivos.html" class="nav-menu-link nav-link">Disposivos</a>
+                    <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
+                </li>
+            </ul>
+        </nav>
+        <div class="bars__menu">
+            <i class="fa-solid fa-bars fa-3x"></i>
+        </div>
+    </div>
+
+
+    <div class="container2 cuerpoCard col-md-12 justify-content-center">
+        <div class="forms1 f3  justify-content-center">
+            <div class="update mb-3">
+                <h1 class="titulo">
+                    Actualizar serviciós
+                </h1>
+                <p class="indicaciones">
+                    Puedes actualizar todos los campos a la ves o solo el que decees
+                </p>
+
+            </div>
+            <form class="row col-sm-12 elform fsrr" id="elform">
+                <div class="form-group col-sm-6 mb-5 pb-5">
+                    <label for="exampleInputEmail1">Servicio</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Ingresa nombre el del servicio">
+                </div>
+                <div class="form-group col-sm-6 mb-5 pb-5">
+                    <label for="exampleInputPassword1">Tipo de servicio</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1"
+                        placeholder="Ingresa el tipo de servicio">
+                </div>
+                <div class="form-group col-sm-12 mb-5 pb-5">
+                    <label for="exampleInputPassword1">Costo de cargo inicial</label>
+                    <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Cargo inicial">
+                </div>
+                <div class="form-group col-sm-12 mb-5 pb-5">
+                    <label for="exampleFormControlSelect1">Tecnico asignado</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Selecciona</option>
+                        <option>Dulce</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="form-check ml-4 pl-4 mt-2 pt-2 mr-3 pr-3 cheket">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Estatus activo
+                    </label>
+                </div>
+                <div class="form-check mt-2 pt-2 cheket1 cheket11">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        Estatus inactivo
+                    </label>
+                </div>
+                <div class="form-group col-md-12 mt-1 pt-1 mb-5 pb-5">
+                    <label for="exampleFormControlSelect2">Example multiple select</label>
+                    <select multiple class="form-control" id="exampleFormControlSelect2">
+                      <option>Samdung</option>
+                      <option>AMD</option>
+                      <option>ASUS</option>
+                      <option>ASK</option>
+                      <option>Refris</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-12 mt-1 pt-1 mb-5 pb-5">
+                    <label for="exampleFormControlTextarea1">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                
+                <button type="button" class="btn btn-primary  col-md-12 mb-4 pb-4 mt-5 dada botonServi" data-toggle="modal"
+                    data-target="#exampleModalCenter">Actualizar
+                </button>
+                <button type="button" class="btn bg-warning  btns2 col-md-12 dada1 mensaje dada111 botonServi1" id="bts1"
+                    >Cancelar </button>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="col-sm-12 footerr bg-dark text-white justify-content-center">
+        <footer class="abajo">
+            <div class="navs ">
+                <nav class="ftp">
+                    <ul class="nav">
+                        <li class="nav-link"><a href="">Email</a></li>
+                        <li class="nav-link"><a href="">Faceboock</a></li>
+                        <li class="nav-link"><a href="">whatsapp</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <p>
+                &copy; 2022 Company ServiElectronic, Inc
+            </p>
+
+        </footer>
+    </div>
+
+</body>
+
+<!-- ************************************************************************************************************************-->
+<!-- POPUP-->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Actualizar</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ¿Seguro de efectuar los siguientes cambios?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" id="can" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary" onclick="location.href='dispositivos.html';">Actualizar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- POPUP-->
+<!-- ************************************************************************************************************************-->
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+<script src="resources/js/menu.js"></script>
+
+</html>

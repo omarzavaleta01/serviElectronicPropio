@@ -435,7 +435,12 @@ color: #51D1F6;
     transform: translate(-40vw, 20vh) !important;
 
   }
- 
+  .buscadorEntrega{
+    transform: translate(0vw,-35%) !important;
+  }
+ .loginEntrega{
+  transform: translate(-42vw,15vh) !important;
+ }
 }
 @media only screen and (max-width: 667px) {
 
