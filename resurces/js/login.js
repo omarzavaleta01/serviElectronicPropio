@@ -28,7 +28,7 @@ btgoogle.addEventListener("click", e =>{
  const provaider= new firebase.auth.GoogleAuthProvider();
  auth.signInWithPopup(provaider)
  .then(result =>{
-  window.location.href="index.html";
+  window.location.href = "index.html";
  })
  .catch(err =>{
     alert("error al iniciar sesion")
