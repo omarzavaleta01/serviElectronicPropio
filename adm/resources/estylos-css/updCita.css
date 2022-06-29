@@ -33,6 +33,43 @@
     margin: 0 auto;
     text-align: center;
   }
+@media (max-width:480px) {
+  
+  .container2{
+    margin-bottom: 10vh;
+  }
+  .forms1{
+    margin-bottom: 10vh;
+  }
+  .update{
+    margin-bottom: 30vh;
+  }
+  .titulo{
+    top: 400px;
+    transform: translate(0%,20vw);
+    margin-bottom: 3vh;
+  }
+  .elform{
+    transform: translate(0%,26vw);
+   
+  }
+  .indicaciones{
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+  }
+  .footerr{
+    max-width: 100%;
+    min-width: 100%;
+    flex-basis: 100%;
+    width: 100%;
+    bottom: -350vw !important;
+    height: 50vw;
+    min-height:50vw ;
+    max-height: 50vw;
+    padding-bottom: 15vw;
+  }
+
+}
   .ftp li {
     list-style: none;
     margin: 0 auto;

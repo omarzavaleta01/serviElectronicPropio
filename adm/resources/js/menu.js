@@ -24,7 +24,7 @@ function animacion(){
 
 function alertas(){
     
-    window.alert("Se cancelo la operacón");
+    window.alert("Se canceló la operacón");
     resetea.reset();
 }
 
