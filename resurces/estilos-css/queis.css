@@ -329,3 +329,10 @@ body {
 .ftp a:hover {
   color: #51d1f6;
 }
+.logQuien{
+  left: -1% !important;
+}
+.singUpss{
+  transform: translate(9vw,2%) !important;
+ 
+}

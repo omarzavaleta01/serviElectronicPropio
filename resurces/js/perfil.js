@@ -3,6 +3,7 @@ const cerrarSes=document.querySelector('.cerrar');
 const userUp=document.querySelector('.up');
 const btServ=document.querySelector('.slServ');
 let text="Cerrar sesión"
+let tex2="Bienvenido"
 const perfil= auth.onAuthStateChanged;
 const decora= document.querySelector(".login");
 const icoDeco=document.querySelector(".logico")
@@ -23,7 +24,7 @@ auth.onAuthStateChanged(user =>{
     if(user){
 
        let disName=user.email;
-       userUp.textContent = disName;
+       userUp.textContent =disName;
        cerrarSes.textContent=text;  
        //alert("Bienvenido " +  user.email) 
        decoracion();

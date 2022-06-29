@@ -59,8 +59,15 @@
        
 
     }
-   
-  
+}
 
-
+@media (max-width: 1366px){
+    
+    .nav-menu{
+        left: 25% ;
+    }
+    .cerrar{
+        position: relative !important;
+        left: -4vw !important;
+    }
 }

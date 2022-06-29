@@ -13,6 +13,8 @@
 <link rel="stylesheet" href="resurces/fontawesome/css/all.css">
 <link rel="stylesheet" href="encabezado.css">
 <link rel="stylesheet" href="query_menu.css">
+ <!--cfrado de datos-->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
 
 
 
@@ -74,13 +76,13 @@
 
                     <h1 class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Registrate</h1>
 
-                    <form class="mx-1 mx-md-4">
+                    <form class="mx-1 mx-md-4 formRegi">
 
                         <div class="d-flex flex-row align-items-center mb-4 itms">
                             <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                             <div class="form-outline flex-fill mb-0">
                                 <label class="form-label" for="">Nombre Completo*</label>
-                                <input type="text" id="" class="form-control" placeholder="Ingresa tu nombre completo"
+                                <input type="text" id="nombreRegi" class="form-control" placeholder="Ingresa tu nombre completo"
                                     required />
 
 
@@ -91,7 +93,7 @@
                             <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                             <div class="form-outline flex-fill mb-0">
                                 <label class="form-label" for="">Email*</label>
-                                <input type="email" id="" class="form-control" placeholder="Ingresa tu email"
+                                <input type="email" id="emailRegi" class="form-control" placeholder="Ingresa tu email"
                                     required />
 
                             </div>
@@ -101,7 +103,7 @@
                             <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
                             <div class="form-outline flex-fill mb-0">
                                 <label class="form-label" for="">Contraseña*</label>
-                                <input type="password" id="" minlength="8" class="form-control"
+                                <input type="password" id="passwordRegi" minlength="8" class="form-control"
                                     placeholder="Ingresa una contraseña mayor a 8 caracteres" required />
 
                             </div>
@@ -111,7 +113,7 @@
                             <i class="fas fa-key fa-lg me-3 fa-fw"></i>
                             <div class="form-outline flex-fill mb-0">
                                 <label class="form-label" for="">Numero telefonico*</label>
-                                <input type="number" id="" class="form-control"
+                                <input type="number" id="numeroTel" class="form-control"
                                     placeholder="Ingresa tu numero telefonico" />
 
                             </div>
@@ -133,7 +135,7 @@
                             </button>
                         </div>
                         <div class="d-flex justify-content-center mx-5  col-md-12 boton" id="btncolor">
-                            <button type="submit" class="btn btn-lg btn-primary">
+                            <button type="submit" class="btn btn-lg btn-primary btn-registro">
                                 Registrate
                             </button>
 
@@ -174,6 +176,27 @@
 
 
 </body>
-<script src="menusa.js"></script>
+<!--INICIO CONFIGURACION LOGIN GOOGLE firebase   ******************************************************************************-->
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+<script  src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>
+<script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyB8D53oeQBVTPwuYKSKzyuhVd5phtcpNis",
+      authDomain: "user-servitec.firebaseapp.com",
+      databaseURL: "https://user-servitec-default-rtdb.firebaseio.com",
+      projectId: "user-servitec",
+      storageBucket: "user-servitec.appspot.com",
+      messagingSenderId: "916983301075",
+      appId: "1:916983301075:web:31ccbd75945cb91fbca526"
+    }; 
+    firebase.initializeApp(firebaseConfig);
+    const auth= firebase.auth(); 
+    
+    
+  </script>
 
+<!--FIN CONFIGURACION LOGIN GOOGLE firebase   ******************************************************************************-->
+<script src="resurces/js/registro.js"></script>
+<script src="resurces/js/perfil.js"></script>
+<script src="menusa.js"></script>
 </html>

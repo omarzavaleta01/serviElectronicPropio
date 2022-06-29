@@ -39,9 +39,14 @@
                         </form>
                     </div>
                     <div class="login">
-                        <li><strong><a href="index.html" class="nav-link px-3 text-black"><i class="fa-solid fa-circle-user fa-3x"
-                                    title="Iniciar sesión"></i></a></strong></li>
-                    </div>
+                        <li class="login"><strong><a href="login.html" class="nav-link px-3 text-black"><i
+                                        class="fa-solid fa-circle-user fa-3x logico" data-title="Iniciar sesión"></i></a></strong>
+                                        <span class="badge badge-info up"></span>
+                        </li>  
+                    </div> 
+                    <div  class="cerrar">
+                        <span class="badge badge-info closeUp"></span>
+                    </div>  
                 </ul>
             </nav>
         </div>
@@ -125,6 +130,28 @@
     </footer>
 </div>
 </body>
+<!--INICIO CONFIGURACION LOGIN GOOGLE firebase   ******************************************************************************-->
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+<script  src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>
+<script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyB8D53oeQBVTPwuYKSKzyuhVd5phtcpNis",
+      authDomain: "user-servitec.firebaseapp.com",
+      databaseURL: "https://user-servitec-default-rtdb.firebaseio.com",
+      projectId: "user-servitec",
+      storageBucket: "user-servitec.appspot.com",
+      messagingSenderId: "916983301075",
+      appId: "1:916983301075:web:31ccbd75945cb91fbca526"
+    }; 
+    firebase.initializeApp(firebaseConfig);
+    const auth= firebase.auth(); 
+    
+    
+  </script>
+
+<!--FIN CONFIGURACION LOGIN GOOGLE firebase   ******************************************************************************-->
+
+<script src="resurces/js/perfil.js"></script>
 <script src="menusa.js"></script>
 
 </html>
